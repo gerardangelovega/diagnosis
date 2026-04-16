@@ -1,0 +1,20 @@
+{
+  "architecture": "synced_difflogic",
+  "bos_index": null,
+  "connections": "random",
+  "d_model": null,
+  "difflogic_init_type": "residual",
+  "dropout": 0.0,
+  "embedding_dim": 228,
+  "eos_index": null,
+  "feedforward_size": null,
+  "group_factor": 2,
+  "hidden_state_init_type": "zero",
+  "hidden_units": 228,
+  "input_vocabulary_size": 8,
+  "num_heads": null,
+  "num_layers": 5,
+  "output_vocabulary_size": null,
+  "use_language_modeling_head": false,
+  "use_next_symbols_head": false
+}

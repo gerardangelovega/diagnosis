@@ -1,0 +1,432 @@
+(BINARY-ADDITION) VALIDATION-SHORT: ./binary-addition/synced_difflogic/rec/validation-short
+PATHS
+./binary-addition/synced_difflogic/rec/validation-short/1/logs/main.log
+./binary-addition/synced_difflogic/rec/validation-short/2/logs/main.log
+./binary-addition/synced_difflogic/rec/validation-short/3/logs/main.log
+./binary-addition/synced_difflogic/rec/validation-short/4/logs/main.log
+./binary-addition/synced_difflogic/rec/validation-short/5/logs/main.log
+./binary-addition/synced_difflogic/rec/validation-short/6/logs/main.log
+./binary-addition/synced_difflogic/rec/validation-short/7/logs/main.log
+./binary-addition/synced_difflogic/rec/validation-short/8/logs/main.log
+./binary-addition/synced_difflogic/rec/validation-short/9/logs/main.log
+./binary-addition/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.48579815292358397	0.768
+0.4968149394989014	0.755
+0.30242750263214113	0.905
+0.48167216682434083	0.775
+0.4674925765991211	0.78
+0.4966231517791748	0.773
+0.4983846168518066	0.766
+0.4277332534790039	0.809
+0.33028948307037354	0.891
+0.3296779069900513	0.897
+
+(BINARY-MULTIPLICATION) VALIDATION-SHORT: ./binary-multiplication/synced_difflogic/rec/validation-short
+PATHS
+./binary-multiplication/synced_difflogic/rec/validation-short/1/logs/main.log
+./binary-multiplication/synced_difflogic/rec/validation-short/2/logs/main.log
+./binary-multiplication/synced_difflogic/rec/validation-short/3/logs/main.log
+./binary-multiplication/synced_difflogic/rec/validation-short/4/logs/main.log
+./binary-multiplication/synced_difflogic/rec/validation-short/5/logs/main.log
+./binary-multiplication/synced_difflogic/rec/validation-short/6/logs/main.log
+./binary-multiplication/synced_difflogic/rec/validation-short/7/logs/main.log
+./binary-multiplication/synced_difflogic/rec/validation-short/8/logs/main.log
+./binary-multiplication/synced_difflogic/rec/validation-short/9/logs/main.log
+./binary-multiplication/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.5070896577835083	0.747
+0.5065293998718262	0.743
+0.50668896484375	0.743
+0.3628629331588745	0.893
+0.5088855667114258	0.75
+0.5070239276885986	0.738
+0.3106277685165405	0.912
+0.5077186431884766	0.74
+0.3208819249868393	0.911
+0.5124231514930725	0.751
+
+(BUCKET-SORT) VALIDATION-SHORT: ./bucket-sort/synced_difflogic/rec/validation-short
+PATHS
+./bucket-sort/synced_difflogic/rec/validation-short/1/logs/main.log
+./bucket-sort/synced_difflogic/rec/validation-short/2/logs/main.log
+./bucket-sort/synced_difflogic/rec/validation-short/3/logs/main.log
+./bucket-sort/synced_difflogic/rec/validation-short/4/logs/main.log
+./bucket-sort/synced_difflogic/rec/validation-short/5/logs/main.log
+./bucket-sort/synced_difflogic/rec/validation-short/6/logs/main.log
+./bucket-sort/synced_difflogic/rec/validation-short/7/logs/main.log
+./bucket-sort/synced_difflogic/rec/validation-short/8/logs/main.log
+./bucket-sort/synced_difflogic/rec/validation-short/9/logs/main.log
+./bucket-sort/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.6402900991439819	0.654
+0.6282019844055176	0.655
+0.6700035448074341	0.66
+0.6272562193870544	0.655
+0.6400703659057617	0.654
+0.6262804279327393	0.652
+0.6251594443321228	0.662
+0.6299939498901367	0.655
+0.6488878450393677	0.662
+0.6312652397155761	0.655
+
+(COMPUTE-SQRT) VALIDATION-SHORT: ./compute-sqrt/synced_difflogic/rec/validation-short
+PATHS
+./compute-sqrt/synced_difflogic/rec/validation-short/1/logs/main.log
+./compute-sqrt/synced_difflogic/rec/validation-short/2/logs/main.log
+./compute-sqrt/synced_difflogic/rec/validation-short/3/logs/main.log
+./compute-sqrt/synced_difflogic/rec/validation-short/4/logs/main.log
+./compute-sqrt/synced_difflogic/rec/validation-short/5/logs/main.log
+./compute-sqrt/synced_difflogic/rec/validation-short/6/logs/main.log
+./compute-sqrt/synced_difflogic/rec/validation-short/7/logs/main.log
+./compute-sqrt/synced_difflogic/rec/validation-short/8/logs/main.log
+./compute-sqrt/synced_difflogic/rec/validation-short/9/logs/main.log
+./compute-sqrt/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.5479459533691406	0.743
+0.5492680625915527	0.716
+0.5317230758666992	0.704
+0.37637359046936036	0.871
+0.5593432309031486	0.715
+0.5661314659118653	0.691
+0.5547201061248779	0.725
+0.5537656192779541	0.713
+0.5668912544250488	0.691
+0.3937822437286377	0.869
+
+(CYCLE-NAVIGATION) VALIDATION-SHORT: ./cycle-navigation/synced_difflogic/rec/validation-short
+PATHS
+./cycle-navigation/synced_difflogic/rec/validation-short/1/logs/main.log
+./cycle-navigation/synced_difflogic/rec/validation-short/2/logs/main.log
+./cycle-navigation/synced_difflogic/rec/validation-short/3/logs/main.log
+./cycle-navigation/synced_difflogic/rec/validation-short/4/logs/main.log
+./cycle-navigation/synced_difflogic/rec/validation-short/5/logs/main.log
+./cycle-navigation/synced_difflogic/rec/validation-short/6/logs/main.log
+./cycle-navigation/synced_difflogic/rec/validation-short/7/logs/main.log
+./cycle-navigation/synced_difflogic/rec/validation-short/8/logs/main.log
+./cycle-navigation/synced_difflogic/rec/validation-short/9/logs/main.log
+./cycle-navigation/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.2679722557067871	0.905
+0.3984793023169041	0.828
+0.29476210260391233	0.905
+0.28894950735569	0.891
+0.2777007374763489	0.91
+0.27492453956604	0.905
+0.4332877311706543	0.78
+0.26765706825256347	0.905
+0.271883451461792	0.906
+0.3851420192718506	0.823
+
+(DYCK-2-3) VALIDATION-SHORT: ./dyck-2-3/synced_difflogic/rec/validation-short
+PATHS
+./dyck-2-3/synced_difflogic/rec/validation-short/1/logs/main.log
+./dyck-2-3/synced_difflogic/rec/validation-short/2/logs/main.log
+./dyck-2-3/synced_difflogic/rec/validation-short/3/logs/main.log
+./dyck-2-3/synced_difflogic/rec/validation-short/4/logs/main.log
+./dyck-2-3/synced_difflogic/rec/validation-short/5/logs/main.log
+./dyck-2-3/synced_difflogic/rec/validation-short/6/logs/main.log
+./dyck-2-3/synced_difflogic/rec/validation-short/7/logs/main.log
+./dyck-2-3/synced_difflogic/rec/validation-short/8/logs/main.log
+./dyck-2-3/synced_difflogic/rec/validation-short/9/logs/main.log
+./dyck-2-3/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.23256645774841309	0.913
+0.5664306049346923	0.69
+0.17994017791748046	0.942
+0.1813672351837158	0.944
+0.20632261085510253	0.921
+0.5876669931411743	0.677
+0.5830199394226074	0.644
+0.5209555969238281	0.725
+0.5923613548278809	0.663
+0.5912887306213379	0.646
+
+(EVEN-PAIRS) VALIDATION-SHORT: ./even-pairs/synced_difflogic/rec/validation-short
+PATHS
+./even-pairs/synced_difflogic/rec/validation-short/1/logs/main.log
+./even-pairs/synced_difflogic/rec/validation-short/2/logs/main.log
+./even-pairs/synced_difflogic/rec/validation-short/3/logs/main.log
+./even-pairs/synced_difflogic/rec/validation-short/4/logs/main.log
+./even-pairs/synced_difflogic/rec/validation-short/5/logs/main.log
+./even-pairs/synced_difflogic/rec/validation-short/6/logs/main.log
+./even-pairs/synced_difflogic/rec/validation-short/7/logs/main.log
+./even-pairs/synced_difflogic/rec/validation-short/8/logs/main.log
+./even-pairs/synced_difflogic/rec/validation-short/9/logs/main.log
+./even-pairs/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.6912727088928222	0.528
+0.6688652178049087	0.574
+0.6857470664978027	0.517
+0.6730270862579346	0.592
+0.6788249638080597	0.559
+0.6885278148651123	0.528
+0.669168321609497	0.586
+0.6844311058521271	0.528
+0.688259765625	0.515
+0.691515474319458	0.515
+
+(FIRST) VALIDATION-SHORT: ./first/synced_difflogic/rec/validation-short
+PATHS
+./first/synced_difflogic/rec/validation-short/1/logs/main.log
+./first/synced_difflogic/rec/validation-short/2/logs/main.log
+./first/synced_difflogic/rec/validation-short/3/logs/main.log
+./first/synced_difflogic/rec/validation-short/4/logs/main.log
+./first/synced_difflogic/rec/validation-short/5/logs/main.log
+./first/synced_difflogic/rec/validation-short/6/logs/main.log
+./first/synced_difflogic/rec/validation-short/7/logs/main.log
+./first/synced_difflogic/rec/validation-short/8/logs/main.log
+./first/synced_difflogic/rec/validation-short/9/logs/main.log
+./first/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.6941580047607422	0.472
+0.6923671169281006	0.51
+0.6922950003147125	0.52
+0.691965217590332	0.521
+0.6862147979736328	0.529
+0.6906990470886231	0.496
+0.6895899600982666	0.496
+0.6904835739135742	0.524
+0.6832339210510254	0.53
+0.6863040013313293	0.511
+
+(MAJORITY) VALIDATION-SHORT: ./majority/synced_difflogic/rec/validation-short
+PATHS
+./majority/synced_difflogic/rec/validation-short/1/logs/main.log
+./majority/synced_difflogic/rec/validation-short/2/logs/main.log
+./majority/synced_difflogic/rec/validation-short/3/logs/main.log
+./majority/synced_difflogic/rec/validation-short/4/logs/main.log
+./majority/synced_difflogic/rec/validation-short/5/logs/main.log
+./majority/synced_difflogic/rec/validation-short/6/logs/main.log
+./majority/synced_difflogic/rec/validation-short/7/logs/main.log
+./majority/synced_difflogic/rec/validation-short/8/logs/main.log
+./majority/synced_difflogic/rec/validation-short/9/logs/main.log
+./majority/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.06447447454929352	0.987
+0.3574835455417633	0.836
+0.3847936248779297	0.813
+0.3752687330245972	0.825
+0.06071900415420532	0.983
+0.004554180651903153	1.0
+0.12002239680290222	0.964
+0.020698473334312437	0.995
+0.039389304161071774	0.991
+0.3361445589065552	0.863
+
+(MARKED-COPY) VALIDATION-SHORT: ./marked-copy/synced_difflogic/rec/validation-short
+PATHS
+./marked-copy/synced_difflogic/rec/validation-short/1/logs/main.log
+./marked-copy/synced_difflogic/rec/validation-short/2/logs/main.log
+./marked-copy/synced_difflogic/rec/validation-short/3/logs/main.log
+./marked-copy/synced_difflogic/rec/validation-short/4/logs/main.log
+./marked-copy/synced_difflogic/rec/validation-short/5/logs/main.log
+./marked-copy/synced_difflogic/rec/validation-short/6/logs/main.log
+./marked-copy/synced_difflogic/rec/validation-short/7/logs/main.log
+./marked-copy/synced_difflogic/rec/validation-short/8/logs/main.log
+./marked-copy/synced_difflogic/rec/validation-short/9/logs/main.log
+./marked-copy/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.6031145124435425	0.662
+0.6242242126464844	0.651
+0.5241114406585693	0.788
+0.14606075525283813	0.959
+0.6281379976272583	0.626
+0.6176289482116699	0.653
+0.6272188138961792	0.644
+0.5233036394119263	0.764
+0.6198986721038818	0.633
+0.6347580790519715	0.641
+
+(MARKED-REVERSAL) VALIDATION-SHORT: ./marked-reversal/synced_difflogic/rec/validation-short
+PATHS
+./marked-reversal/synced_difflogic/rec/validation-short/1/logs/main.log
+./marked-reversal/synced_difflogic/rec/validation-short/2/logs/main.log
+./marked-reversal/synced_difflogic/rec/validation-short/3/logs/main.log
+./marked-reversal/synced_difflogic/rec/validation-short/4/logs/main.log
+./marked-reversal/synced_difflogic/rec/validation-short/5/logs/main.log
+./marked-reversal/synced_difflogic/rec/validation-short/6/logs/main.log
+./marked-reversal/synced_difflogic/rec/validation-short/7/logs/main.log
+./marked-reversal/synced_difflogic/rec/validation-short/8/logs/main.log
+./marked-reversal/synced_difflogic/rec/validation-short/9/logs/main.log
+./marked-reversal/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.6340691204071045	0.649
+0.6284756240844727	0.642
+0.6358568296432495	0.642
+0.6121200981140137	0.662
+0.6038044421672821	0.656
+0.6402748699188232	0.631
+0.6197885055541992	0.633
+0.6400315895080566	0.642
+0.5321061058044434	0.785
+0.3428912303447723	0.868
+
+(MISSING-DUPLICATE-STRING) VALIDATION-SHORT: ./missing-duplicate-string/synced_difflogic/rec/validation-short
+PATHS
+./missing-duplicate-string/synced_difflogic/rec/validation-short/1/logs/main.log
+./missing-duplicate-string/synced_difflogic/rec/validation-short/2/logs/main.log
+./missing-duplicate-string/synced_difflogic/rec/validation-short/3/logs/main.log
+./missing-duplicate-string/synced_difflogic/rec/validation-short/4/logs/main.log
+./missing-duplicate-string/synced_difflogic/rec/validation-short/5/logs/main.log
+./missing-duplicate-string/synced_difflogic/rec/validation-short/6/logs/main.log
+./missing-duplicate-string/synced_difflogic/rec/validation-short/7/logs/main.log
+./missing-duplicate-string/synced_difflogic/rec/validation-short/8/logs/main.log
+./missing-duplicate-string/synced_difflogic/rec/validation-short/9/logs/main.log
+./missing-duplicate-string/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.5307379856109619	0.748
+0.6276105823516845	0.642
+0.24459096527099608	0.936
+0.6716244812011719	0.616
+0.5237591123580932	0.744
+0.5882770652770997	0.664
+0.6495559167861938	0.608
+0.4877979545593262	0.805
+0.6379470481872559	0.623
+0.5054378089904785	0.74
+
+(MODULAR-ARITHMETIC-SIMPLE) VALIDATION-SHORT: ./modular-arithmetic-simple/synced_difflogic/rec/validation-short
+PATHS
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/1/logs/main.log
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/2/logs/main.log
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/3/logs/main.log
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/4/logs/main.log
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/5/logs/main.log
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/6/logs/main.log
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/7/logs/main.log
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/8/logs/main.log
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/9/logs/main.log
+./modular-arithmetic-simple/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.16707817029953004	0.943
+0.07869958143308758	0.982
+0.08203909814357757	0.98
+0.07940017966926098	0.982
+0.07888613354042172	0.982
+0.0808251433968544	0.982
+0.09862563280761241	0.973
+0.3528361167907715	0.856
+0.32744975662231446	0.823
+0.2312928476333618	0.902
+
+(ODDS-FIRST) VALIDATION-SHORT: ./odds-first/synced_difflogic/rec/validation-short
+PATHS
+./odds-first/synced_difflogic/rec/validation-short/1/logs/main.log
+./odds-first/synced_difflogic/rec/validation-short/2/logs/main.log
+./odds-first/synced_difflogic/rec/validation-short/3/logs/main.log
+./odds-first/synced_difflogic/rec/validation-short/4/logs/main.log
+./odds-first/synced_difflogic/rec/validation-short/5/logs/main.log
+./odds-first/synced_difflogic/rec/validation-short/6/logs/main.log
+./odds-first/synced_difflogic/rec/validation-short/7/logs/main.log
+./odds-first/synced_difflogic/rec/validation-short/8/logs/main.log
+./odds-first/synced_difflogic/rec/validation-short/9/logs/main.log
+./odds-first/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.5933101675510406	0.677
+0.6354146231412887	0.643
+0.4782762718200684	0.831
+0.6308100261688232	0.635
+0.6228591384887695	0.644
+0.44541486763954163	0.83
+0.6405627253055572	0.622
+0.6062968592643738	0.654
+0.6195269937515259	0.63
+0.6250500764846801	0.628
+
+(PARITY) VALIDATION-SHORT: ./parity/synced_difflogic/rec/validation-short
+PATHS
+./parity/synced_difflogic/rec/validation-short/1/logs/main.log
+./parity/synced_difflogic/rec/validation-short/2/logs/main.log
+./parity/synced_difflogic/rec/validation-short/3/logs/main.log
+./parity/synced_difflogic/rec/validation-short/4/logs/main.log
+./parity/synced_difflogic/rec/validation-short/5/logs/main.log
+./parity/synced_difflogic/rec/validation-short/6/logs/main.log
+./parity/synced_difflogic/rec/validation-short/7/logs/main.log
+./parity/synced_difflogic/rec/validation-short/8/logs/main.log
+./parity/synced_difflogic/rec/validation-short/9/logs/main.log
+./parity/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.6821319923400879	0.535
+0.6699494724273681	0.579
+0.6809537048339844	0.545
+0.6877057647705078	0.537
+0.6873749446868896	0.545
+0.6856541976928711	0.542
+0.6865472259521485	0.537
+0.6722326063513756	0.557
+0.6872476844787597	0.534
+0.6850713920593262	0.544
+
+(REPEAT-01) VALIDATION-SHORT: ./repeat-01/synced_difflogic/rec/validation-short
+PATHS
+./repeat-01/synced_difflogic/rec/validation-short/1/logs/main.log
+./repeat-01/synced_difflogic/rec/validation-short/2/logs/main.log
+./repeat-01/synced_difflogic/rec/validation-short/3/logs/main.log
+./repeat-01/synced_difflogic/rec/validation-short/4/logs/main.log
+./repeat-01/synced_difflogic/rec/validation-short/5/logs/main.log
+./repeat-01/synced_difflogic/rec/validation-short/6/logs/main.log
+./repeat-01/synced_difflogic/rec/validation-short/7/logs/main.log
+./repeat-01/synced_difflogic/rec/validation-short/8/logs/main.log
+./repeat-01/synced_difflogic/rec/validation-short/9/logs/main.log
+./repeat-01/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+1.1924095289941761e-05	1.0
+0.4070178241729736	0.806
+0.3356172618865967	0.853
+6.967292750778143e-05	1.0
+1.73463932442246e-05	1.0
+0.3589852066040039	0.86
+3.3331968588754534e-06	1.0
+0.21740266799926758	0.928
+0.45973834609985353	0.777
+0.3561873893737793	0.836
+
+(STACK-MANIPULATION) VALIDATION-SHORT: ./stack-manipulation/synced_difflogic/rec/validation-short
+PATHS
+./stack-manipulation/synced_difflogic/rec/validation-short/1/logs/main.log
+./stack-manipulation/synced_difflogic/rec/validation-short/2/logs/main.log
+./stack-manipulation/synced_difflogic/rec/validation-short/3/logs/main.log
+./stack-manipulation/synced_difflogic/rec/validation-short/4/logs/main.log
+./stack-manipulation/synced_difflogic/rec/validation-short/5/logs/main.log
+./stack-manipulation/synced_difflogic/rec/validation-short/6/logs/main.log
+./stack-manipulation/synced_difflogic/rec/validation-short/7/logs/main.log
+./stack-manipulation/synced_difflogic/rec/validation-short/8/logs/main.log
+./stack-manipulation/synced_difflogic/rec/validation-short/9/logs/main.log
+./stack-manipulation/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.5635288848876953	0.712
+0.5549072303771972	0.698
+0.5452959423065186	0.682
+0.3692218141555786	0.854
+0.3692218141555786	0.854
+0.4958530921936035	0.739
+0.22702209854125976	0.926
+0.2986401779651642	0.892
+0.5557309722900391	0.677
+0.3816035261154175	0.834
+
+(UNMARKED-REVERSAL) VALIDATION-SHORT: ./unmarked-reversal/synced_difflogic/rec/validation-short
+PATHS
+./unmarked-reversal/synced_difflogic/rec/validation-short/1/logs/main.log
+./unmarked-reversal/synced_difflogic/rec/validation-short/2/logs/main.log
+./unmarked-reversal/synced_difflogic/rec/validation-short/3/logs/main.log
+./unmarked-reversal/synced_difflogic/rec/validation-short/4/logs/main.log
+./unmarked-reversal/synced_difflogic/rec/validation-short/5/logs/main.log
+./unmarked-reversal/synced_difflogic/rec/validation-short/6/logs/main.log
+./unmarked-reversal/synced_difflogic/rec/validation-short/7/logs/main.log
+./unmarked-reversal/synced_difflogic/rec/validation-short/8/logs/main.log
+./unmarked-reversal/synced_difflogic/rec/validation-short/9/logs/main.log
+./unmarked-reversal/synced_difflogic/rec/validation-short/10/logs/main.log
+CROSS_ENTROPY		ACCURACY
+0.6918454189300537	0.531
+0.6867935218811035	0.536
+0.6904693517684937	0.54
+0.6932784118652344	0.506
+0.691380751132965	0.514
+0.692815601348877	0.519
+0.6883917999267578	0.543
+0.6885094375610351	0.52
+0.6887929979562759	0.54
+0.6945130081176758	0.474
+

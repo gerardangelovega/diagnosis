@@ -1,0 +1,412 @@
+(BINARY-ADDITION) VALIDATION-LONG: ./binary-addition/synced_difflogic/rec/validation-long
+PATHS
+./binary-addition/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./binary-addition/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./binary-addition/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./binary-addition/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./binary-addition/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./binary-addition/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./binary-addition/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./binary-addition/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./binary-addition/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./binary-addition/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+1.9041097905635833	0.495	
+7.265110696792602	0.495	
+1.3477787506580352	0.495	
+1.080074344277382	0.495	
+1.5889976201057434	0.495	
+2.2729066588878633	0.495	
+2.233612993001938	0.495	
+2.109030398130417	0.495	
+1.4702861471176147	0.495	
+9.554210607528686	0.495	
+
+(BINARY-MULTIPLICATION) VALIDATION-LONG: ./binary-multiplication/synced_difflogic/rec/validation-long
+PATHS
+./binary-multiplication/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./binary-multiplication/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./binary-multiplication/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./binary-multiplication/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./binary-multiplication/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./binary-multiplication/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./binary-multiplication/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./binary-multiplication/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./binary-multiplication/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./binary-multiplication/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+1.870906476020813	0.491	
+11.301395183563232	0.491	
+1.9134010105133057	0.491	
+8.265359813690186	0.491	
+2.098271369457245	0.491	
+1.7743525199890138	0.491	
+1.532282732963562	0.491	
+23.06558751296997	0.491	
+1.209697321176529	0.491	
+2.7289489541053773	0.491	
+
+(BUCKET-SORT) VALIDATION-LONG: ./bucket-sort/synced_difflogic/rec/validation-long
+PATHS
+./bucket-sort/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./bucket-sort/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./bucket-sort/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./bucket-sort/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./bucket-sort/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./bucket-sort/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./bucket-sort/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./bucket-sort/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./bucket-sort/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+0.7529105378389358	0.506	
+0.769718160033226	0.506	
+2.191773684501648	0.506	
+14.283595895767212	0.506	
+0.8858358172178269	0.506	
+0.8406167854070663	0.506	
+0.8167731111645699	0.506	
+7.135953253746033	0.506	
+8.193658372879028	0.506	
+
+(COMPUTE-SQRT) VALIDATION-LONG: ./compute-sqrt/synced_difflogic/rec/validation-long
+PATHS
+./compute-sqrt/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./compute-sqrt/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./compute-sqrt/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./compute-sqrt/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./compute-sqrt/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./compute-sqrt/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./compute-sqrt/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./compute-sqrt/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./compute-sqrt/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./compute-sqrt/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+1.7995090508460998	0.506	
+5.040755331993103	0.506	
+2.856273690223694	0.506	
+6.1005185060501095	0.506	
+6.355663718223572	0.506	
+1.5961856074333192	0.506	
+4.716053903579712	0.506	
+6.888692387580871	0.506	
+0.953072422862053	0.506	
+2.347817440032959	0.506	
+
+(CYCLE-NAVIGATION) VALIDATION-LONG: ./cycle-navigation/synced_difflogic/rec/validation-long
+PATHS
+./cycle-navigation/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./cycle-navigation/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./cycle-navigation/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./cycle-navigation/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./cycle-navigation/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./cycle-navigation/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./cycle-navigation/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./cycle-navigation/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./cycle-navigation/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./cycle-navigation/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+9.018030758857726	0.476	
+6.5332390432357785	0.476	
+3.1248467762470247	0.476	
+7.654586480140686	0.476	
+4.2017376065254215	0.476	
+4.553393527030945	0.476	
+2.7136255748271942	0.476	
+9.444923433303833	0.476	
+1.3052986227273942	0.476	
+9.077092914581298	0.476	
+
+(DYCK-2-3) VALIDATION-LONG: ./dyck-2-3/synced_difflogic/rec/validation-long
+PATHS
+./dyck-2-3/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./dyck-2-3/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./dyck-2-3/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./dyck-2-3/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./dyck-2-3/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./dyck-2-3/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./dyck-2-3/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./dyck-2-3/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./dyck-2-3/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./dyck-2-3/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+0.6893789303004741	0.508	
+1.5399372987747193	0.508	
+1.0207012552618981	0.508	
+0.8981594716310501	0.508	
+1.1080442366600036	0.508	
+0.871450060069561	0.508	
+0.7930917585492134	0.508	
+0.7519938333630561	0.508	
+0.8043425954580307	0.508	
+1.5474386076927185	0.508	
+
+(EVEN-PAIRS) VALIDATION-LONG: ./even-pairs/synced_difflogic/rec/validation-long
+PATHS
+./even-pairs/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./even-pairs/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./even-pairs/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./even-pairs/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./even-pairs/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./even-pairs/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./even-pairs/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./even-pairs/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./even-pairs/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./even-pairs/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+0.69365772408247	0.514	
+0.6953327865004539	0.487	
+0.7256345317065716	0.486	
+0.6930490426421165	0.514	
+0.69389456564188	0.514	
+0.6930201692581177	0.514	
+0.6953981340527534	0.514	
+0.6925940789580345	0.514	
+0.6940091923475266	0.512	
+0.6938193035721779	0.514	
+
+(FIRST) VALIDATION-LONG: ./first/synced_difflogic/rec/validation-long
+PATHS
+./first/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./first/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./first/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./first/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./first/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./first/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./first/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./first/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./first/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./first/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+0.8304487002491951	0.492	
+0.6949063441753387	0.486	
+0.6931882699131966	0.52	
+0.6969301487207413	0.5	
+0.693572754740715	0.501	
+0.6936199918389321	0.505	
+0.6933899408578873	0.508	
+0.6940319845080376	0.498	
+0.711856932580471	0.492	
+0.6961860866546631	0.508	
+
+(MAJORITY) VALIDATION-LONG: ./majority/synced_difflogic/rec/validation-long
+PATHS
+./majority/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./majority/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./majority/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./majority/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./majority/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./majority/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./majority/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./majority/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./majority/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./majority/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+0.7640480663776398	0.414	
+0.8630849095582962	0.514	
+2.0173531189910134	0.486	
+1.0547578399181365	0.514	
+3.32348492924805	0.486	
+0.7363945481106638	0.63	
+0.752915125310421	0.514	
+0.9111251041591167	0.514	
+1.1908358714617788	0.338	
+2.533818578073522	0.486	
+
+(MARKED-COPY) VALIDATION-LONG: ./marked-copy/synced_difflogic/rec/validation-long
+PATHS
+./marked-copy/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./marked-copy/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./marked-copy/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./marked-copy/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./marked-copy/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./marked-copy/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./marked-copy/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./marked-copy/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./marked-copy/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./marked-copy/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+1.0862405389547347	0.506	
+7.5596479291915895	0.506	
+0.8797952913045883	0.506	
+1.909879264831543	0.506	
+2.8212049255371094	0.506	
+0.8529385960102082	0.506	
+1.2431624178886413	0.506	
+0.9654741220474243	0.506	
+1.0661444916725158	0.506	
+2.7477148537635805	0.506	
+
+(MARKED-REVERSAL) VALIDATION-LONG: ./marked-reversal/synced_difflogic/rec/validation-long
+PATHS
+./marked-reversal/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./marked-reversal/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./marked-reversal/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./marked-reversal/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./marked-reversal/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./marked-reversal/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./marked-reversal/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./marked-reversal/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./marked-reversal/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./marked-reversal/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+1.5715482859611511	0.54	
+2.3061462473869323	0.54	
+2.7740491886138914	0.54	
+0.6859775858521462	0.54	
+0.8450431019067765	0.54	
+0.9904897763729096	0.54	
+4.164897679328918	0.54	
+1.4674176771640777	0.54	
+2.0293298623561857	0.54	
+0.7289606725275517	0.54	
+
+(MISSING-DUPLICATE-STRING) VALIDATION-LONG: ./missing-duplicate-string/synced_difflogic/rec/validation-long
+PATHS
+./missing-duplicate-string/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./missing-duplicate-string/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./missing-duplicate-string/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./missing-duplicate-string/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./missing-duplicate-string/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./missing-duplicate-string/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./missing-duplicate-string/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./missing-duplicate-string/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./missing-duplicate-string/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./missing-duplicate-string/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+0.6813847307860851	0.472	
+0.692107414841652	0.472	
+0.6772581742107868	0.575	
+0.77065910333395	0.472	
+0.7811526348292828	0.472	
+0.7136038479804993	0.46	
+1.8169952094554902	0.472	
+9.95257293510437	0.472	
+0.727682060599327	0.472	
+0.8925430432856083	0.472	
+
+(MODULAR-ARITHMETIC-SIMPLE) VALIDATION-LONG: ./modular-arithmetic-simple/synced_difflogic/rec/validation-long
+PATHS
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./modular-arithmetic-simple/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+1.9359285004138946	0.501	
+2.9599144649505615	0.501	
+2.46212069773674	0.501	
+1.1198088182210921	0.501	
+2.419716474533081	0.501	
+8.37314298915863	0.501	
+12.997653593063355	0.501	
+2.165150921344757	0.501	
+15.12869017982483	0.501	
+0.9845862571001053	0.501	
+
+(ODDS-FIRST) VALIDATION-LONG: ./odds-first/synced_difflogic/rec/validation-long
+PATHS
+./odds-first/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./odds-first/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./odds-first/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./odds-first/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./odds-first/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./odds-first/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./odds-first/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./odds-first/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./odds-first/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./odds-first/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+1.8204641244411468	0.531	
+5.15771441078186	0.531	
+1.1892010185718536	0.531	
+0.8249203746914864	0.531	
+1.1234535878896714	0.531	
+1.0454794918298722	0.531	
+0.6920179967284202	0.531	
+2.7055610022544863	0.531	
+0.7421253196001053	0.531	
+0.7284517557621002	0.531	
+
+(PARITY) VALIDATION-LONG: ./parity/synced_difflogic/rec/validation-long
+PATHS
+./parity/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./parity/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./parity/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./parity/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./parity/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./parity/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./parity/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./parity/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./parity/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./parity/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+0.6930557277202606	0.498	
+0.7508445854783058	0.498	
+0.6944349672198296	0.498	
+0.6941000226140023	0.502	
+0.6927988143563271	0.497	
+0.6955944344401359	0.498	
+0.6926093301773071	0.495	
+0.7053604238629341	0.498	
+0.6939962406754494	0.498	
+0.6920360783338547	0.526	
+
+(REPEAT-01) VALIDATION-LONG: ./repeat-01/synced_difflogic/rec/validation-long
+PATHS
+
+CROSS_ENTROPY		ACCURACY
+
+
+(STACK-MANIPULATION) VALIDATION-LONG: ./stack-manipulation/synced_difflogic/rec/validation-long
+PATHS
+./stack-manipulation/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./stack-manipulation/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./stack-manipulation/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./stack-manipulation/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./stack-manipulation/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./stack-manipulation/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./stack-manipulation/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./stack-manipulation/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./stack-manipulation/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./stack-manipulation/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+1.3273308120965959	0.518	
+2.7924654097557067	0.518	
+0.770280466914177	0.518	
+4.23359832572937	0.518	
+1.1150847584009171	0.518	
+12.861201915740967	0.518	
+0.9439367215633392	0.518	
+1.1214297584295272	0.518	
+1.305158352971077	0.518	
+10.028807626724243	0.518	
+
+(UNMARKED-REVERSAL) VALIDATION-LONG: ./unmarked-reversal/synced_difflogic/rec/validation-long
+PATHS
+./unmarked-reversal/synced_difflogic/rec/validation-long/1/eval/test-short-held-out.json
+./unmarked-reversal/synced_difflogic/rec/validation-long/2/eval/test-short-held-out.json
+./unmarked-reversal/synced_difflogic/rec/validation-long/3/eval/test-short-held-out.json
+./unmarked-reversal/synced_difflogic/rec/validation-long/4/eval/test-short-held-out.json
+./unmarked-reversal/synced_difflogic/rec/validation-long/5/eval/test-short-held-out.json
+./unmarked-reversal/synced_difflogic/rec/validation-long/6/eval/test-short-held-out.json
+./unmarked-reversal/synced_difflogic/rec/validation-long/7/eval/test-short-held-out.json
+./unmarked-reversal/synced_difflogic/rec/validation-long/8/eval/test-short-held-out.json
+./unmarked-reversal/synced_difflogic/rec/validation-long/9/eval/test-short-held-out.json
+./unmarked-reversal/synced_difflogic/rec/validation-long/10/eval/test-short-held-out.json
+CROSS_ENTROPY		ACCURACY
+0.6933169434666634	0.509	
+0.6958701788187027	0.501	
+0.7626547187566757	0.501	
+0.6955829587578773	0.501	
+0.6963435876369476	0.501	
+0.6954725502729416	0.501	
+0.6987485246658325	0.501	
+0.696957213640213	0.501	
+0.6951428273320198	0.501	
+0.6935029566287995	0.501	
+
