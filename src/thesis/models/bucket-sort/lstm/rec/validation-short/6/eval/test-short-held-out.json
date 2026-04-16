@@ -1,0 +1,6 @@
+{
+  "scores": {
+    "recognition_cross_entropy": 0.43293223893642424,
+    "recognition_accuracy": 0.784
+  }
+}
