@@ -1,0 +1,10 @@
+/ignore/
+/*.sif
+/data
+
+.venv/
+__pycache__/
+*.swp
+
+.history/
+.vscode/
