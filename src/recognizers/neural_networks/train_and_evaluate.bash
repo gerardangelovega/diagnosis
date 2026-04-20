@@ -79,6 +79,10 @@ for loss_term in ${loss_terms//+/ }; do
   esac
 done
 
+datasets=(test training)
+eval_dir=$model_dir/eval
+mkdir -p "$eval_dir"
+
 model_dir=$(get_model_dir "$base_dir" "$language" "$architecture" "$loss_terms" "$validation_data" "$trial_no")
 python recognizers/neural_networks/train.py \
   --output "$model_dir" \
@@ -97,5 +101,8 @@ python recognizers/neural_networks/train.py \
   --learning-rate-patience 5 \
   --learning-rate-decay-factor 0.5 \
   --examples-per-checkpoint 10000 \
+  --batching-max-tokens 1024 \
+  --datasets "${datasets[@]}" \
+  --output "$eval_dir" \
   "${progress_args[@]}"
 bash recognizers/neural_networks/evaluate.bash "$language_dir" "$model_dir"
