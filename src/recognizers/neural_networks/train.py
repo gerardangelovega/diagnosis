@@ -124,7 +124,7 @@ def main():
              '<training-data>/datasets/<dataset>/main.prepared will be used as '
              'input. Multiple datasets can be passed. The name "training" '
              'can be used to evaluate on the training data.')
-    parser.add_argument('--output', type=pathlib.Path, required=True,
+    parser.add_argument('--eoutput', type=pathlib.Path, required=True,
         help='A directory where output files will be written.')
     parser.add_argument('--batching-max-tokens', type=int, required=True,
         help='The maximum number of tokens allowed per batch.')
@@ -222,19 +222,19 @@ def main():
         batches = generate_batches(examples, args.batching_max_tokens)
         scores, predictions = evaluate(saver.model, model_interface, batches, len(examples), eval_mode=args.eval_mode)
         accumulator = DictScoreAccumulator()
-        example_scores_path = args.output / f'{dataset}.jsonl'
+        example_scores_path = args.eoutput / f'{dataset}.jsonl'
         print(f'writing {example_scores_path}')
         with example_scores_path.open('w') as fout:
             for score_dict in scores:
                 write_json_line(score_dict, fout)
                 accumulator.update(score_dict)
-        predictions_path = args.output / f'{dataset}_predictions.jsonl'
+        predictions_path = args.eoutput / f'{dataset}_predictions.jsonl'
         print(f'writing {predictions_path}')
         with predictions_path.open('w') as fout:
             for prediction in predictions:
                 write_json_line({'prediction': prediction}, fout)
         total_scores = accumulator.get_value()
-        total_scores_path = args.output / f'{dataset}.json'
+        total_scores_path = args.eoutput / f'{dataset}.json'
         print(f'writing {total_scores_path}')
         with total_scores_path.open('w') as fout:
             json.dump(dict(scores=total_scores), fout, indent=2)

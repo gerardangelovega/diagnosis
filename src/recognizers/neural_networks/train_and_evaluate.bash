@@ -103,6 +103,6 @@ python recognizers/neural_networks/train.py \
   --examples-per-checkpoint 10000 \
   --batching-max-tokens 1024 \
   --datasets "${datasets[@]}" \
-  --output "$eval_dir" \
+  --eoutput "$eval_dir" \
   "${progress_args[@]}"
 bash recognizers/neural_networks/evaluate.bash "$language_dir" "$model_dir"
