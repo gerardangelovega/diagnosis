@@ -113,6 +113,25 @@ def main():
         description=
         'Train a recognizer.'
     )
+    parser.add_argument('--training-data', type=pathlib.Path, required=True,
+        help='A directory containing training data. The file '
+             '<training-data>/datasets/<input>/main.prepared will be used as '
+             'input, and the file '
+             '<training-data>/main.vocab will be used as the vocabulary.')
+    parser.add_argument('--datasets', nargs='+', required=True,
+        help='Names of datasets in the training data directory that will be '
+             'used as input. The file '
+             '<training-data>/datasets/<dataset>/main.prepared will be used as '
+             'input. Multiple datasets can be passed. The name "training" '
+             'can be used to evaluate on the training data.')
+    parser.add_argument('--output', type=pathlib.Path, required=True,
+        help='A directory where output files will be written.')
+    parser.add_argument('--batching-max-tokens', type=int, required=True,
+        help='The maximum number of tokens allowed per batch.')
+    parser.add_argument('--eval-mode', choices=['soft', 'discrete'], default='soft',
+        help='Evaluation mode. "soft" (default) uses soft logic. "discrete" fully '
+             'discretizes the model via eval_col_all (synced_difflogic only; '
+             'silently skipped for other architectures).')
     add_data_arguments(parser)
     model_interface.add_arguments(parser)
     model_interface.add_forward_arguments(parser)
@@ -177,25 +196,6 @@ def main():
             event_logger
         )
 
-    parser.add_argument('--training-data', type=pathlib.Path, required=True,
-        help='A directory containing training data. The file '
-             '<training-data>/datasets/<input>/main.prepared will be used as '
-             'input, and the file '
-             '<training-data>/main.vocab will be used as the vocabulary.')
-    parser.add_argument('--datasets', nargs='+', required=True,
-        help='Names of datasets in the training data directory that will be '
-             'used as input. The file '
-             '<training-data>/datasets/<dataset>/main.prepared will be used as '
-             'input. Multiple datasets can be passed. The name "training" '
-             'can be used to evaluate on the training data.')
-    parser.add_argument('--output', type=pathlib.Path, required=True,
-        help='A directory where output files will be written.')
-    parser.add_argument('--batching-max-tokens', type=int, required=True,
-        help='The maximum number of tokens allowed per batch.')
-    parser.add_argument('--eval-mode', choices=['soft', 'discrete'], default='soft',
-        help='Evaluation mode. "soft" (default) uses soft logic. "discrete" fully '
-             'discretizes the model via eval_col_all (synced_difflogic only; '
-             'silently skipped for other architectures).')
     model_interface.add_arguments(parser)
     model_interface.add_forward_arguments(parser)
     args = parser.parse_args()
