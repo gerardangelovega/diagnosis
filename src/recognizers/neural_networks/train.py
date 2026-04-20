@@ -196,9 +196,9 @@ def main():
             event_logger
         )
 
-    model_interface.add_arguments(parser)
-    model_interface.add_forward_arguments(parser)
-    args = parser.parse_args()
+    # model_interface.add_arguments(parser)
+    # model_interface.add_forward_arguments(parser)
+    # args = parser.parse_args()
 
     saver = model_interface.construct_saver(args)
     if args.eval_mode == 'discrete':
