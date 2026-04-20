@@ -81,6 +81,11 @@ done
 
 model_dir=$(get_model_dir "$base_dir" "$language" "$architecture" "$loss_terms" "$validation_data" "$trial_no")
 datasets=(test training)
+for dataset in test-short-held-out test-edit-distance; do
+  if [[ -e $language_dir/datasets/$dataset ]]; then
+    datasets+=("$dataset")
+  fi
+done
 eval_dir=$model_dir/eval
 
 python recognizers/neural_networks/train.py \
@@ -91,8 +96,8 @@ python recognizers/neural_networks/train.py \
   "${model_flags[@]}" \
   --init-scale 0.1 \
   "${loss_term_flags[@]}" \
-  --max-epochs 25 \
-  --max-tokens-per-batch "$(random_sample --int 4000 4096)" \
+  --max-epochs 100 \
+  --max-tokens-per-batch "$(random_sample --int 2048 4096)" \
   --optimizer Adam \
   --initial-learning-rate "$(random_sample --log 0.0001 0.01)" \
   --gradient-clipping-threshold 5 \
