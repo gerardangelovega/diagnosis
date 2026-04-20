@@ -82,7 +82,6 @@ done
 model_dir=$(get_model_dir "$base_dir" "$language" "$architecture" "$loss_terms" "$validation_data" "$trial_no")
 datasets=(test training)
 eval_dir=$model_dir/eval
-mkdir -p "$eval_dir"
 
 python recognizers/neural_networks/train.py \
   --output "$model_dir" \
