@@ -113,11 +113,11 @@ def main():
         description=
         'Train a recognizer.'
     )
-    parser.add_argument('--training-data', type=pathlib.Path, required=True,
-        help='A directory containing training data. The file '
-             '<training-data>/datasets/<input>/main.prepared will be used as '
-             'input, and the file '
-             '<training-data>/main.vocab will be used as the vocabulary.')
+    # parser.add_argument('--training-data', type=pathlib.Path, required=True,
+    #     help='A directory containing training data. The file '
+    #          '<training-data>/datasets/<input>/main.prepared will be used as '
+    #          'input, and the file '
+    #          '<training-data>/main.vocab will be used as the vocabulary.')
     parser.add_argument('--datasets', nargs='+', required=True,
         help='Names of datasets in the training data directory that will be '
              'used as input. The file '
