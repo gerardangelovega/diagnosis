@@ -91,7 +91,7 @@ python recognizers/neural_networks/train.py \
   "${model_flags[@]}" \
   --init-scale 0.1 \
   "${loss_term_flags[@]}" \
-  --max-epochs 1 \
+  --max-epochs 25 \
   --max-tokens-per-batch "$(random_sample --int 4000 4096)" \
   --optimizer Adam \
   --initial-learning-rate "$(random_sample --log 0.0001 0.01)" \
@@ -104,4 +104,4 @@ python recognizers/neural_networks/train.py \
   --datasets "${datasets[@]}" \
   --eoutput "$eval_dir" \
   "${progress_args[@]}"
-bash recognizers/neural_networks/evaluate.bash "$language_dir" "$model_dir"
+# bash recognizers/neural_networks/evaluate.bash "$language_dir" "$model_dir"
